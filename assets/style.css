@@ -1,0 +1,46 @@
+header {
+    display: table; 
+    background-color: #2980b9;
+    width: 100%;
+}
+
+h3 {
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 80px
+} 
+
+nav {
+    display: table;
+    float: right;
+    height: 10vh;
+    margin-right: 80px;
+
+}
+
+a {
+    display: table-cell;
+    vertical-align: middle;
+    text-decoration: none;
+    color: white
+
+
+}
+
+a:not(last-child) {
+    padding-right: 20px
+
+}
+
+main{
+    height: 80vh;
+    background-color: #95a5a6
+
+}
+
+footer{
+    height: 10vh;
+    background-color: #2980b9
+
+}
